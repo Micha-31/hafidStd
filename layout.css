@@ -1,0 +1,68 @@
+#navbar {
+    background-color: #2b2b2b;
+}
+
+#navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0 16px;
+    list-style: none;
+}
+
+#navbar a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#navbar li:hover > a,
+#navbar a.aktif,
+.dropdown.buka > a {
+    background-color: #2861ff;
+}
+
+.kanan {
+    margin-left: auto;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dd-isi {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 260px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+
+.dropdown:hover .dd-isi,
+.dropdown.buka .dd-isi {
+    display: block;
+}
+
+#navbar .dd-isi a {
+    color: #222222;
+}
+
+#navbar .dd-isi a:hover {
+    background-color: #f4f5f7;
+}
+
+.isi {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 16px;
+}
+
+.isi h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}

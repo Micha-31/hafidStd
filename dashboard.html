@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard
+  </title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body data-halaman="dashboard">
+  <header><nav id="navbar" aria-label="Menu utama"></nav></header>
+  <main class="isi">
+    <h1>Dashboard Aplikasi</h1>
+    <p id="waktuSekarang" class="sapaan"></p>
+    <p id="profil" class="sapaan"></p>
+    <section class="statistik" aria-label="Ringkasan">
+      <p class="menu-kartu"><strong id="statJudul">0</strong>judul bahan ajar</p>
+      <p class="menu-kartu"><strong id="statStok">0</strong>total stok</p>
+      <p class="menu-kartu"><strong id="statDO">0</strong>delivery order</p>
+    </section>
+    <section class="grid" aria-label="Pintasan">
+      <a class="menu-kartu" href="stok.html"><strong>Informasi Bahan Ajar</strong>Lihat dan tambah stok</a>
+      <a class="menu-kartu" href="tracking.html"><strong>Tracking Pengiriman</strong>Cari nomor DO</a>
+    </section>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.sapaan {
+    margin: 0 0 16px 0;
+}
+
+.statistik,
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.menu-kartu {
+    display: block;
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #d5d9e0;
+    border-left: 6px solid #f0c14b;
+    border-radius: 6px;
+    background-color: white;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.menu-kartu:hover {
+    border-left-color: #393dff;
+}
+
+.menu-kartu strong {
+    display: block;
+    font-size: 20px;
+}

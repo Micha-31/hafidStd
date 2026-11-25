@@ -1,0 +1,85 @@
+.form-cari {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.form-cari input {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid #d5d9e0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form-cari .btn {
+    width: auto;
+    padding: 10px 28px;
+}
+
+.kartu-biru {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #2f4aa8;
+    color: white;
+}
+
+.kartu-biru h2,
+.kartu-biru p {
+    margin: 0;
+}
+
+.status {
+    display: inline-block;
+    margin: 16px 0 12px 0;
+    padding: 4px 14px;
+    border-radius: 14px;
+    background-color: #d5d9e0;
+    font-weight: bold;
+}
+
+.status-perjalanan {
+    background-color: #f0c14b;
+}
+
+.status-dikirim {
+    background-color: #2f4aa8;
+    color: white;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 6px 12px;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.detail dt {
+    color: #666666;
+}
+
+.detail dd {
+    margin: 0;
+}
+
+.timeline {
+    margin: 0;
+    padding: 0 0 0 12px;
+    border-left: 3px solid #f0c14b;
+    list-style: none;
+}
+
+.timeline li {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0 8px 12px;
+}

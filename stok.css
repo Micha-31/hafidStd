@@ -1,0 +1,59 @@
+.tabel-wrap {
+    overflow-x: auto;
+    border-radius: 6px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #d5d9e0;
+    text-align: left;
+}
+
+th {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.rendah {
+    color: #e53935;
+    font-weight: bold;
+}
+
+.cover {
+    width: 40px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 3px;
+    background-color: #d5d9e0;
+}
+
+.form-stok {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0 8px;
+    align-items: end;
+    padding: 16px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.form-stok input {
+    width: 100%;
+    padding: 10px;
+    margin: 4px 0 14px 0;
+    border: 1px solid #d5d9e0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.form-stok .btn {
+    margin-bottom: 14px;
+}

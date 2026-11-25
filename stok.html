@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Informasi Bahan Ajar</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/stok.css">
+</head>
+<body data-halaman="stok">
+  <header><nav id="navbar" aria-label="Menu utama"></nav></header>
+  <main class="isi">
+    <h1>Informasi Stok Bahan Ajar</h1>
+    <div class="tabel-wrap">
+      <table>
+        <caption class="sr">Daftar stok bahan ajar</caption>
+        <thead><tr><th>Cover</th><th>Kode Lokasi</th><th>Kode Barang</th><th>Nama Barang</th><th>Jenis</th><th>Edisi</th><th>Stok</th></tr></thead>
+        <tbody id="tbodyStok"></tbody>
+      </table>
+    </div>
+    <h2>Tambah Stok Baru</h2>
+    <form id="formStok" class="form-stok" novalidate>
+      <input name="kodeLokasi" placeholder="Kode Lokasi" aria-label="Kode Lokasi">
+      <input name="kodeBarang" placeholder="Kode Barang" aria-label="Kode Barang">
+      <input name="namaBarang" placeholder="Nama Barang" aria-label="Nama Barang">
+      <input name="jenisBarang" placeholder="Jenis (BMP/NBMP)" aria-label="Jenis Barang">
+      <input name="edisi" type="number" min="1" placeholder="Edisi" aria-label="Edisi">
+      <input name="stok" type="number" min="0" placeholder="Stok" aria-label="Stok">
+      <button type="submit" class="btn">Tambah</button>
+    </form>
+    <p id="pesan" class="error" role="alert"></p>
+  </main>
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
